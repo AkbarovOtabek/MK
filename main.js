@@ -1,5 +1,5 @@
 //task #0
-/*const player1={
+const player1={
     name:'Scorpion',
     hp:95,
     img:'assets/scorpion.gif',
@@ -24,7 +24,7 @@ player2.weapon='clinok';
 player2.weapon1='veyer';
 player2.attack();
 console.log(player2);
-*/
+
 //Task #1
 const $root =document.querySelector('.root');
 const $arenas = document.querySelector('.arenas','.arena1');
@@ -64,8 +64,10 @@ $character.appendChild($img);
 $playr.appendChild($progressbar);
 
 $playr.appendChild($character);
-$arenas.appendChild($playr)
-}
+$arenas.appendChild($playr);
 
+}
+//task2
 createPlayer('player1', 'SCORPION', 50, 'assets/scorpion.gif');
 createPlayer('player2', 'SUB-ZERO', 80, 'assets/subzero.gif');
+
